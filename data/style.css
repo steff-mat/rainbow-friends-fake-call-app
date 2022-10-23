@@ -12,7 +12,7 @@ html {
 }
 
 /* Main Menu */
-.status-bar {
+/* .status-bar {
     width: 195px;
     height: 17px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -20,7 +20,7 @@ html {
     position: relative;
     top: 42px;
     border-radius: 15px 15px 0 0;
-}
+} */
 
 .phone-main-menu {
     width: 100vw;
@@ -55,7 +55,7 @@ html {
 .phone {
     width: 100vw;
     height: 100vh;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     background: rgb(2,0,36);
     background: linear-gradient(148deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     display: flex;
