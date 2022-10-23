@@ -11,22 +11,15 @@ html {
     background-color: black;
 }
 
+
 /* Main Menu */
-/* .status-bar {
-    width: 195px;
-    height: 17px;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin: 25px auto;
-    position: relative;
-    top: 42px;
-    border-radius: 15px 15px 0 0;
-} */
+
 
 .phone-main-menu {
-    width: 100vw;
-    height: 100%;
+    /* width: 100vw;
+    height: 100vh; */
     background: rgb(2,0,36);
-    background: linear-gradient(148deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(148deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%,  rgba(0,212,255,1) 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -54,7 +47,7 @@ html {
 
 .phone {
     width: 100vw;
-    height: 100vh;
+    height: 75vh;
     /* border-radius: 15px; */
     background: rgb(2,0,36);
     background: linear-gradient(148deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
@@ -62,6 +55,11 @@ html {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.placeholder {
+    width: 100vw;
+    height: 100%;
 }
 
 .home-menu {
