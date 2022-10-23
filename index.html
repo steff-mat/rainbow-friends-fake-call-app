@@ -8,50 +8,117 @@
     <link rel="stylesheet" href="./data/style.css">
 </head>
 <body>
-    <div class="blur-bg">
-        <img src="./data/rainbow-friends.jpg">
+    <div class="phone-main-menu">
+        <div class="phone">
+            <div class="home-menu">
+                <div class="cube settings"><img src="./src/settings.png"></div>
+                <div class="cube translate"><img src="./src/translate.png"></div>
+                <div class="cube"><img src="./src/spotify.png"></div>
+                <div class="cube"><img src="./src/tik-tok.png"></div>
+                <div class="cube"><img src="./src/google-maps.png"></div>
+                <div class="cube"><img src="./src/facebook.png"></div>
+                <div class="cube"><img src="./src/gmail-logo.png"></div>
+                <div class="cube"><img src="./src/social.png"></div>
+                <div class="cube"><img src="./src/chrome.png"></div>
+                <div class="cube"><img src="./src/photo-camera-interface-symbol-for-button.png"></div>
+                <div class="cube"><img src="./src/whatsapp.png"></div>
+                <div class="cube"><img src="./src/wallet-filled-money-tool.png"></div>
+                <div class="cube"><img src="./src/notes.png"></div>
+                <div class="cube"><img src="./src/dumbbell.png"></div>
+                <div class="cube"><img src="./src/compass.png"></div>
+                <div class="cube"><img src="./src/calculator.png"></div>
+                <div class="cube"><img src="./src/airbnb.png"></div>
+                <div class="cube"><img src="./src/cloudy.png"></div>
+                <div class="cube"><img src="./src/appointment.png"></div>
+                <div class="cube"><img src="./src/linkedin.png"></div>
+                <div class="cube"><img src="./src/games.png"></div>
+                <div class="cube"><img src="./src/image-gallery.png"></div>
+                <div class="cube"><img src="./src/contact-book.png"></div>
+                <div class="cube"><img src="./src/restaurant.png"></div>
+            </div>
+            <div class="fav-menu">
+                    <div class="cube to-call">
+                        <img src="./src/phone-call.png">
+                    </div>
+                    <div class="cube">
+                        <img src="./src/speech-bubble.png">
+                    </div>
+                    <div class="cube">
+                        <img src="./src/messenger.png">
+                    </div>
+                    <div class="cube start-fake-call">
+                        <img class="start-fake-call" src="./src/youtube.png">
+                    </div>
+            </div>
     </div>
-    <div class="fake">
-        <div class="placeholder"></div>
-        <div class="top-frame">
-            <div class="photo-frame">
-                <div class="image">
-                    <img src="./data/rainbow-friends.jpg">
+    </div>
+    <div class="contact-list hidden">
+        <div class="contact-frame">
+            <div class="image">
+                <img src="./data/rainbow-friends.jpg">
+                <p>Rainbow Friend</p>
+            </div>
+        </div>
+        <div class="contact-options" >
+            <p>+33 99 827 1234</p>
+            <div class="button-options">
+                <img class="b-o-a" src="./data/phone-answer.png">
+                <img src="./src/speech-bubble.png">
+            </div>
+        </div>
+        <div class="nav-menu">
+            <img src="./src/square.png"/>
+            <img class="back-main-menu" src="./src/circle-button.png"/>
+            <img src="./src/right-arrow.png"/>
+        </div>
+    </div>
+    <div class="incomming-caller-screen hidden">
+        <div class="blur-bg">
+            <img src="./data/rainbow-friends.jpg">
+        </div>
+        <div class="fake">
+            <div class="placeholder"></div>
+            <div class="top-frame">
+                <div class="photo-frame">
+                    <div class="image">
+                        <img src="./data/rainbow-friends.jpg">
+                    </div>
+                </div>
+                <div class="text-photo-frame">
+                    <div class="incoming-text">
+                        <p>Incoming Call</p>
+                    </div>
+                    <div class="phone-number">
+                        <p>+33 99 827 1234</p>
+                    </div>
                 </div>
             </div>
-            <div class="text-photo-frame">
-                <div class="incoming-text">
-                    <p>Incoming Call</p>
+            <div class="bottom-frame">
+                <div class="bottom-top">
+                        <div class="bottom-top-top-left">
+                            <img src="./data/clock.png">
+                            <p>Remind me</p>
+                        </div>
+                        <div class="bottom-top-top-right">
+                            <img src="./data/email.png">
+                            <p>Message</p>
+                        </div>
                 </div>
-                <div class="phone-number">
-                    <p>+33 99 827 1234</p>
+                <div class="bottom-bottom">
+                    <a class="bottom-bottom-top-left">
+                        <img src="./data/phone-answer.png">
+                        <p>Answer</p>
+                    </a>
+                    <div class="bottom-bottom-top-right">
+                        <img src="./data/phone-hungup.png">
+                        <p>Decline</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="bottom-frame">
-            <div class="bottom-top">
-                    <div class="bottom-top-top-left">
-                        <img src="./data/clock.png">
-                        <p>Remind me</p>
-                    </div>
-                    <div class="bottom-top-top-right">
-                        <img src="./data/email.png">
-                        <p>Message</p>
-                    </div>
-            </div>
-            <div class="bottom-bottom">
-                <a class="bottom-bottom-top-left">
-                    <img src="./data/phone-answer.png">
-                    <p>Answer</p>
-                </a>
-                <div class="bottom-bottom-top-right">
-                    <img src="./data/phone-hungup.png">
-                    <p>Decline</p>
-                </div>
-            </div>
-        </div>
+        <video controls loop autoplay="autoplay" muted src="./data/videoFile.mp4" type="video/mp4" class="video hidden"><video>
     </div>
-    <video controls loop autoplay="autoplay" muted src="./data/videoFile.mp4" type="video/mp4" class="video hidden"><video>
+
     <script src="./data/script.js"></script>
 </body>
 </html>

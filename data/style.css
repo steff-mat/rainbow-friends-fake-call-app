@@ -11,6 +11,161 @@ html {
     background-color: black;
 }
 
+/* Main Menu */
+.status-bar {
+    width: 195px;
+    height: 17px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 25px auto;
+    position: relative;
+    top: 42px;
+    border-radius: 15px 15px 0 0;
+}
+
+.phone-main-menu {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(148deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cube {
+    width: 64px;
+    height: 64px;
+    border-radius: 5px;
+    background: rgb(131,58,180);
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    margin: 5px 10px;
+    z-index: 10;
+}
+
+.cube:hover {
+    scale: 1.2;
+}
+
+.cube:active {
+    scale: 0.8;
+}
+
+.phone {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 15px;
+    background: rgb(2,0,36);
+    background: linear-gradient(148deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-menu {
+    width: 100%;
+    height: 80%;
+}
+
+.fav-menu {
+    height: 10%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.home-menu, .fav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    width: 100%;
+    scale: 0.8;
+}
+
+/* Contact List App */
+.contact-list {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+.contact-frame {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-frame .image {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.b-o-a:hover {
+    zoom: 1.1;
+}
+
+.b-o-a:active {
+    zoom: 0.8;
+}
+
+.image p {
+    font-size: 24px;
+    color: black;
+    font-weight: bolder;
+}
+
+.contact-options {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-options p {
+    font-size: 24px;
+    color: black;
+    font-weight: bolder;
+}
+
+.contact-options img {
+    width: 100px;
+}
+
+.nav-menu {
+    width: 100%;
+    height: 35px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.nav-menu img {
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/* Incomming Caller Screen */
 .hidden {
     display: none;
 }
